@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>等灯等灯 · 数据托管</title></head>
+<body style="font:15px/1.7 -apple-system,sans-serif;padding:2rem;color:#333">
+<h2>等灯等灯 · 增量同步数据托管</h2>
+<p>本分支仅承载 App 增量同步所需的 JSON 数据：</p>
+<ul>
+<li><code>feed/index.json</code> — 轻量索引（列表元数据 + 每篇修订号）</li>
+<li><code>feed/items/&lt;id&gt;.json</code> — 单篇完整内容，按需下载</li>
+<li><code>feed/chips.json</code> — 芯片库</li>
+</ul>
+<p>完整母本（源码、脚本、文档）在私有仓库的 <code>main</code> 分支。</p>
+</body>
+</html>
